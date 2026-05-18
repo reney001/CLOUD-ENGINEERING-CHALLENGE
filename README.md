@@ -18,3 +18,19 @@ handling scaling and availability.
 Most cloud servers run on Linux. Cloud engineers use Linux to manage
 servers, run scripts, and configure systems — making it a core skill
 in cloud environments.
+
+
+ 
+ Part 5 — Problem Solving Question
+A cloud server becomes inaccessible. What are 3 things you would check first?
+
+1. Network connectivity — Check if the server can be reached over the network,
+   verify firewall rules and security groups to ensure the right ports are open.
+
+2. Server status — Check if the server is actually running on the cloud
+   provider dashboard (AWS, Azure, GCP) and look at CPU, memory usage
+   and any error logs.
+
+3. SSH access — Try to connect via SSH to the server to see if it is
+   responsive, and check if the SSH service is running and the key
+   or credentials are correct.
